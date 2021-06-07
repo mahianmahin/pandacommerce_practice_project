@@ -1,0 +1,361 @@
+.logo {
+    height: 41px;
+    width: 170px;
+    float: left;
+}
+
+/* ===============Search box =========== */
+
+.searchBox {
+    border-radius: 55px;
+    display: flex;
+    padding: 30px;
+    background: #F8F8F8;
+    align-items: center;
+    width: 702px;
+    height: 52px;
+    position: relative;
+    left: 72px;
+}
+
+.search-btn {
+    color: rgb(78, 78, 78);
+    float: right;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBox input {
+    width: 600px;
+    border: 0;
+    background: transparent;
+    outline: none;
+}
+
+.input-field {
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navList  li a {
+    text-decoration: none;
+    color: #707070;
+}
+
+.navList li {
+    margin-left: 20px;
+}
+
+.navList {
+    position: relative;
+    left: 65px;
+}
+
+/* ===============Search box =========== */
+
+
+/* ===============Slider=========== */
+
+.slide-1, .slide-2, .slide-3 {
+    width: 1432px;
+    min-height: 744px;
+    background-color: #FEEAE9;
+    border-radius: 20px;
+}
+
+.ad-details-heading {
+    font-size: 41px;
+}
+
+.ad-details p {
+    max-width: 480px;
+    height: 53px;
+    text-align: left;
+    margin-top: 34px;
+    color: #707070;
+}
+
+.ad-details-price {
+    font-size: 41px;
+    color: #FF136F;
+    margin-top: 75px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ad-details-buy-btn {
+    background-color: #FF589B;
+    width: 179px;
+    height: 57px;
+    margin-top: 28px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    background: transparent;
+  }
+
+.ad-details-block {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}  
+
+.block-image {
+    margin-right: 10px;
+}
+
+.category {
+    color: #1F1F1F;
+    margin-top: 68px;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 47px;
+}
+
+.category-block {
+    float: left;
+    background-color: #FF9C35;
+    width: 400px;
+    min-height: 179px;
+    display: block;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+#category-1 {
+    margin-right: 58px;
+}
+
+#category-2 {
+    background-color: #FF589B;
+    margin-right: 58px;
+}
+
+#category-3 {
+    background-color: #4289FF;
+}
+
+.category-name {
+    font-size: 40px;
+    color: white;
+    /* margin-top: 30%; */
+}
+
+.categories-names {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: auto;
+}
+
+#watch {
+    margin-right: 57px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    position: relative;
+}
+
+#bag {
+    margin-right: 67px;
+    margin-top: 14px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+#shoe {
+    margin-right: 47px;
+    margin-top: 16px;
+    margin-bottom: 3px;
+    position: relative;
+}
+
+.category-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products {
+    background-color: #F8F8F8;
+}
+
+.product-shoes {
+    color: #1F1F1F;
+    float: left;
+    font-size: 30px;
+    margin-top: 91px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 51px;
+}
+
+.product-see-all {
+    color: #FF9D00;
+    float: right;
+    font-size: 22px;
+    margin-top: 91px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 51px;
+}
+
+.products-block {
+    width: 450px;
+    min-height: 685px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 111px;
+    box-shadow: -2px 2px 19px -7px rgba(0,0,0,0.33);
+    -webkit-box-shadow: -2px 2px 19px -7px rgba(0,0,0,0.33);
+    -moz-box-shadow: -2px 2px 19px -7px rgba(0,0,0,0.33);
+}
+
+.product-pic {
+    padding: 50px;
+    /*height: 400px;*/
+}
+
+#product-1 {
+    margin-right: 58px;
+}
+
+#product-2 {
+    margin-right: 58px;
+}
+
+#product-buy {
+    margin-top: 24px;
+    background-color: black;
+    margin-bottom: 31px;
+}
+
+.product-name {
+    color: #1F1F1F;
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+.product-desc {
+    color: #707070;
+    width: 252px;
+    height: 43px;
+    font-size: 16px;
+    margin-top: 31px;
+}
+
+.product-price {
+    color: #1F1F1F;
+    font-size: 24px;
+    margin-top: 50px;
+    font-weight: bold;
+    display: block;
+}
+
+.product-details {
+    position: relative;
+    /*height: 350px;*/
+
+}
+
+.product-dsc {
+    width: 252px;
+    height: 43px;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.contact-form {
+    border-radius: 20px;
+    background-color: #FEEAE9;
+    margin-top: 90px;
+    margin-bottom: 150px;
+    min-height: 419px;
+}
+
+.footer-heading {
+    margin-top: 85px;
+    font-size: 30px;
+    color: #1F1F1F;
+}
+
+.footer-text {
+    margin-top: 36px;
+    font-size: 18px;
+    color: #707070;
+}
+
+.form {
+    max-height: 73px;
+    max-width: 683px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: 47px;
+    padding-left: 36px;
+    font-size: 22px;
+    position: relative;
+}
+
+.form-button {
+    height: 34px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #FF589B;
+    position: relative;
+    top: -3px;
+    left: -4px;
+    color: white;
+}
+
+/*.slider {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  overflow-x: auto;
+}
+.slide {
+  width: 300px;
+  flex-shrink: 0;
+  height: 100%;
+}*/
+
+.slide-2 {
+    display: none;
+}
+
+.pink-gradient {
+    background: rgb(234,22,107);
+    background: linear-gradient(0deg, rgba(234,22,107,1) 0%, rgba(255,125,177,1) 100%);
+}
+
+.yellow-gradient {
+    background: rgb(238,143,44);
+    background: linear-gradient(90deg, rgba(238,143,44,1) 0%, rgba(255,204,73,1) 100%);
+}
+
+.blue-gradient {
+    background: rgb(98,157,255);
+    background: linear-gradient(90deg, rgba(98,157,255,1) 0%, rgba(15,93,223,1) 100%);
+}
+
+.img-thumbnail {
+    border: none;
+    background: transparent;
+}
